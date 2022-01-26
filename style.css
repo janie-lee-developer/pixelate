@@ -1,17 +1,37 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Press Start 2P', cursive;
-}
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  html {
+    background-color: #222;
+    color: white;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  /* your CSS below! */
+  
+  
+  td {
+    background-color: lightgrey;
+    height: 50px;
+    width:50px;
+  }
 
-html {
-  background-color: #222;
-  color: white;
-}
+  .red{
+    background-color: red;
+  }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .purple{
+    background-color: purple;
+  }
 
-/* your CSS below! */
+  .blue{
+    background-color: dodgerblue;
+  }
